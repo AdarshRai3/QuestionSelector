@@ -114,8 +114,8 @@ const QuestionSelector: React.FC<Props> = ({ theme, onSolvedChange }) => {
     const medium = questions.filter((q) => q.Difficulty === "Medium");
     const hard = questions.filter((q) => q.Difficulty === "Hard");
 
-    const selectedEasy = [...easy].sort(() => 0.5 - Math.random()).slice(0, 2);
-    const selectedMedium = [...medium].sort(() => 0.5 - Math.random()).slice(0, 3);
+    const selectedEasy = [...easy].sort(() => 0.5 - Math.random()).slice(0, 1);
+    const selectedMedium = [...medium].sort(() => 0.5 - Math.random()).slice(0, 4);
     const selectedHard = [...hard].sort(() => 0.5 - Math.random()).slice(0, 1);
 
     const combined = [...selectedEasy, ...selectedMedium, ...selectedHard].map((problem) => ({
