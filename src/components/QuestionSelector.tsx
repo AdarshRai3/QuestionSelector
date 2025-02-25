@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { RefreshCw, Clock } from "lucide-react";
+import { Clock } from "lucide-react";
 import questionsData from "../question.json";
 
 type Problem = {
