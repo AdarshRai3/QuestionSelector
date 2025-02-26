@@ -115,8 +115,8 @@ const QuestionSelector: React.FC<Props> = ({ theme, onSolvedChange }) => {
     const hard = questions.filter((q) => q.Difficulty === "Hard");
 
     const selectedEasy = [...easy].sort(() => 0.5 - Math.random()).slice(0, 1);
-    const selectedMedium = [...medium].sort(() => 0.5 - Math.random()).slice(0, 4);
-    const selectedHard = [...hard].sort(() => 0.5 - Math.random()).slice(0, 1);
+    const selectedMedium = [...medium].sort(() => 0.5 - Math.random()).slice(0, 3);
+    const selectedHard = [...hard].sort(() => 0.5 - Math.random()).slice(0, 2);
 
     const combined = [...selectedEasy, ...selectedMedium, ...selectedHard].map((problem) => ({
       ...problem,
@@ -220,14 +220,14 @@ const QuestionSelector: React.FC<Props> = ({ theme, onSolvedChange }) => {
                     className={
                       problem.completed
                         ? theme === "dark"
-                          ? "bg-sky-100 text-black font-semibold"
-                          : "bg-blue-100"
+                          ? "bg-blue-200 text-black font-semibold"
+                          : "bg-blue-100 font-semibold"
                         : theme === "dark"
                         ? "hover:bg-gray-700"
                         : "hover:bg-blue-50"
                     }
                   >
-                    <td className="py-3 px-4 border border-gray-300">
+                    <td className="py-3 px-4 border border-gray-300 text-center">
                       <button className={`px-2 py-1 rounded ${getLevelStyle(index + 1)}`}>
                         Level {index + 1}
                       </button>

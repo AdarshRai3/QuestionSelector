@@ -44,7 +44,7 @@
   {
     "Problems": "Sort colors",
     "Difficulty": "Medium",
-    "Number": 3,
+    "Number": 2,
     "Link": "https://leetcode.com/problems/sort-colors/"
   },
   {
@@ -187,8 +187,8 @@
   },
   {
     "Problems": "Set Matrix",
-    "Difficulty": "Medium",
-    "Number": 2,
+    "Difficulty": "Hard",
+    "Number": 3,
     "Link": "https://leetcode.com/problems/set-matrix-zeroes/description/"
   },
   {
