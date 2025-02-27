@@ -10,6 +10,8 @@ import ssgodImg from "./assets/Images/Super Saiyan Red.jpg";
 import ssblueImg from "./assets/Images/Super Saiyan Blue.jpg";
 import ultrainstinctImg from "./assets/Images/UltraInstinct.jpg";
 import { Confetti, type ConfettiRef } from "./components/magicui/confetti";
+import { InteractiveGridPattern } from "./components/magicui/interactive-grid-pattern";
+import { cn } from "@/lib/utils";
 
 type TransformationDetail = {
   title: string;
@@ -111,7 +113,11 @@ const App: React.FC = () => {
   }, [showModal]);
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${theme === "dark" ? "bg-gray-900 text-gray-100" : "bg-gray-100 text-gray-900"}`}>
+    <div
+      className={`min-h-screen transition-colors duration-300 ${
+        theme === "dark" ? "bg-gray-900 text-gray-100" : "bg-gray-100 text-gray-900"
+      }`}
+    >
       <nav className="flex items-center justify-between px-6 py-4 border-b border-blue-500">
         <span className="text-2xl font-bold">LeetCode Practice</span>
         <div className="flex items-center space-x-4">
@@ -136,11 +142,22 @@ const App: React.FC = () => {
       {/* Transformation Modal */}
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          {/* Interactive Grid Pattern as Background */}
+          <InteractiveGridPattern
+            className={cn(
+              "[mask-image:radial-gradient(400px_circle_at_center,white,transparent)]",
+              "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12"
+            )}
+          />
           <Confetti
             ref={confettiRef}
             className="absolute left-0 top-0 z-30 size-full pointer-events-none"
           />
-          <div className={`relative bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-3xl w-full overflow-hidden ${getBeamColor(level)}`}>
+          <div
+            className={`relative bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-3xl w-full overflow-hidden ${getBeamColor(
+              level
+            )}`}
+          >
             {/* Top Right Close Icon */}
             <button
               onClick={() => {
