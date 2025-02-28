@@ -1,0 +1,314 @@
+[
+  {
+    "Problems": "Rotate an Array by n (Right and Left)",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/rotate-array/description/"
+  },
+  {
+    "Problems": "Two Sum",
+    "Difficulty": "Medium",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/two-sum/description/"
+  },
+  {
+    "Problems": "Binary Search",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/binary-search/description/"
+  },
+  {
+    "Problems": "Missing Number",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/missing-number/description/"
+  },
+  {
+    "Problems": "Check if the array is Sorted and Rotated",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums."
+  },
+  {
+    "Problems": "Palindrome Number",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/palindrome-number/"
+  },
+  {
+    "Problems": "Reverse a String",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/reverse-string/description/"
+  },
+  {
+    "Problems": "Sort colors",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/sort-colors/"
+  },
+  {
+    "Problems": "Single Number",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/single-number/description/"
+  },
+  {
+    "Problems": "Maximum Consecutive Ones",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/max-consecutive-ones/description/"
+  },
+  {
+    "Problems": "Union of Two Sorted Array",
+    "Difficulty": "Medium",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/merge-sorted-array/"
+  },
+  {
+    "Problems": "Majority Element (n/2)",
+    "Difficulty": "Medium",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/majority-element/description/"
+  },
+  {
+    "Problems": "Kadane's Algorithm, maximum subarray sum",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/maximum-subarray/description/"
+  },
+  {
+    "Problems": "Best Time to Buy and Sell Stock",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/"
+  },
+  {
+    "Problems": "Delete Node in Linked List",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/delete-node-in-a-linked-list/"
+  },
+  {
+    "Problems": "Delete Node from the middle of Linked List",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/"
+  },
+  {
+    "Problems": "Middle of the linked List",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/middle-of-the-linked-list/"
+  },
+  {
+    "Problems": "Remove nth node from the linked list from end",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+  },
+  {
+    "Problems": "Majority Element (n/3)",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/majority-element-ii/"
+  },
+  {
+    "Problems": "Reverse Linked List",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/reverse-linked-list/description/"
+  },
+  {
+    "Problems": "Reverse Linked List 2",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/reverse-linked-list-ii/"
+  },
+  {
+    "Problems": "Armstrong Number",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://www.naukri.com/code360/problems/armstrong-number_1462443"
+  },
+  {
+    "Problems": "Fibonnacci Number",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/fibonacci-number/description/"
+  },
+  {
+    "Problems": "Next Permutation",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/next-permutation/"
+  },
+  {
+    "Problems": "Arrange Negative and Positive",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
+  },
+  {
+    "Problems": "Power of 2",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/power-of-two/"
+  },
+  {
+    "Problems": "Power(x,n)",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/powx-n/description/"
+  },
+  {
+    "Problems": "Cyclic Linked List",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/linked-list-cycle-ii/"
+  },
+  {
+    "Problems": "Merge Two Sorted Linked",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/merge-two-sorted-lists/"
+  },
+  {
+    "Problems": "Delete Kth element from the end linked list",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+  },
+  {
+    "Problems": "Remove Outermost Paranthesis",
+    "Difficulty": "Easy",
+    "Number": 1,
+    "Link": "https://leetcode.com/problems/remove-outermost-parentheses/"
+  },
+  {
+    "Problems": "Set Matrix",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/set-matrix-zeroes/description/"
+  },
+  {
+    "Problems": "Reverse Words in a String",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/reverse-words-in-a-string/"
+  },
+  {
+    "Problems": "Kth largest element",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+  },
+  {
+    "Problems": "Merge Two Sorted Array",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150"
+  },
+  {
+    "Problems": "Longest consecutive sequence of an array",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/longest-consecutive-sequence/editorial/"
+  },
+  {
+    "Problems": "Pascal Triangle",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/pascals-triangle/description/"
+  },
+  {
+    "Problems": "Rotate Matrix By 90",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/rotate-image/description/"
+  },
+  {
+    "Problems": "Spiral Matrix",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/spiral-matrix/description/"
+  },
+  {
+    "Problems": "SubArray Sum",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/subarray-sum-equals-k/description/"
+  },
+  {
+    "Problems": "4sum",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/4sum/description/"
+  },
+  {
+    "Problems": "3sum",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/4sum/description/"
+  },
+  {
+    "Problems": "Merge Overlapping Intervals",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/merge-intervals/description/"
+  },
+  {
+    "Problems": "Reverse Pairs",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/reverse-pairs/description/"
+  },
+  {
+    "Problems": "Maximum Product",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/maximum-product-subarray/description/"
+  },
+  {
+    "Problems": "Search in Rotated Sorted 1",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description//"
+  },
+  {
+    "Problems": "Search in Rotated Sorted:2",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/"
+  },
+  {
+    "Problems": "Find Minimum in Rotated Sorted",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/"
+  },
+  {
+    "Problems": "Find Peak Element",
+    "Difficulty": "Hard",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/find-peak-element/description/"
+  },
+  {
+    "Problems": "Valid Paranthesis",
+    "Difficulty": "Medium",
+    "Number": 2,
+    "Link": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "Problems": "Generate Paranthesis",
+    "Difficulty": "Medium",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/generate-parentheses/"
+  },
+  {
+    "Problems": "Add Two Numbers",
+    "Difficulty": "Medium",
+    "Number": 3,
+    "Link": "https://leetcode.com/problems/add-two-numbers/"
+  }
+]
