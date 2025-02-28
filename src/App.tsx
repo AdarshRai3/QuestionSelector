@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState} from "react";
 import QuestionSelector from "./components/QuestionSelector";
 import { Sun, Moon, X } from "lucide-react";
 import { TypingAnimation } from "./components/magicui/typing-animation";
@@ -9,7 +9,7 @@ import ssj3Img from "./assets/Images/Saiyan3.jpg";
 import ssgodImg from "./assets/Images/Super Saiyan Red.jpg";
 import ssblueImg from "./assets/Images/Super Saiyan Blue.jpg";
 import ultrainstinctImg from "./assets/Images/UltraInstinct.jpg";
-import { Confetti, type ConfettiRef } from "./components/magicui/confetti";
+// import { Confetti, type ConfettiRef } from "./components/magicui/confetti";
 import { InteractiveGridPattern } from "./components/magicui/interactive-grid-pattern";
 import { cn } from "@/lib/utils";
 
@@ -93,7 +93,7 @@ const getBeamColor = (level: number) => {
 };
 
 const App: React.FC = () => {
-  const confettiRef = useRef<ConfettiRef>(null);
+  // const confettiRef = useRef<ConfettiRef>(null);
   const [theme, setTheme] = useState<"dark" | "light">("dark");
   const [solvedCount, setSolvedCount] = useState<number>(0);
   const [showModal, setShowModal] = useState<boolean>(false);
@@ -106,11 +106,11 @@ const App: React.FC = () => {
   };
 
   // Fire confetti only once when the modal opens
-  useEffect(() => {
-    if (showModal) {
-      confettiRef.current?.fire({});
-    }
-  }, [showModal]);
+  // useEffect(() => {
+  //   if (showModal) {
+  //     confettiRef.current?.fire({});
+  //   }
+  // }, [showModal]);
 
   return (
     <div
@@ -149,10 +149,10 @@ const App: React.FC = () => {
               "inset-x-0 inset-y-[-30%] h-[200%] skew-y-12"
             )}
           />
-          <Confetti
+          {/* <Confetti
             ref={confettiRef}
             className="absolute left-0 top-0 z-30 size-full pointer-events-none"
-          />
+          /> */}
           <div
             className={`relative bg-white dark:bg-gray-800 rounded-lg shadow-xl max-w-3xl w-full overflow-hidden ${getBeamColor(
               level
